@@ -8,7 +8,7 @@ document.getElementById('generate-link').addEventListener('click', function () {
         const cartItems = response.items
 
         // Ensure the correct API URL (local or deployed)
-        const apiURL = 'https://sharecart-5dbc4.cloudfunctions.net/shareCart'
+        const apiURL = 'https://us-central1-sharecart-5dbc4.cloudfunctions.net/shareCart'
 
         // Make a POST request to the backend API to generate the shareable link
         fetch(apiURL, {

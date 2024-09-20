@@ -9,7 +9,12 @@ module.exports = {
   extends: ['eslint:recommended', 'google'],
   rules: {
     'no-restricted-globals': ['error', 'name', 'length'],
+    'no-trailing-spaces': ['warn'],
+    'no-multi-spaces': ['warn'],
+    'indent': ['warn'],
+    'max-len': ['warn'],
     'prefer-arrow-callback': 'error',
+    'arrow-parens': ['warn'],
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
     'semi': ['off'],
     'object-curly-spacing': ['off'],
